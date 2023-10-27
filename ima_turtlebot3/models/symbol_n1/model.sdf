@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+    <model name="symbol_n1">
+      <pose>0 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <collision name="collision">
+          <geometry>
+            <box>
+            <size>.2 .01 .2</size>
+            </box>
+</geometry>
+</collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+            <size>.2 .001 .2</size>
+            </box>
+          </geometry>
+          <material>
+          <script>
+            <uri>model://symbol_n1/materials/scripts</uri>
+            <uri>model://symbol_n1/materials/textures</uri>
+            <name>n1</name>
+          </script>
+        </material>
+        </visual>
+      </link>
+    </model>
+</sdf>

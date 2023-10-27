@@ -1,0 +1,15 @@
+material power
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture power.png
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+material n9
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture n9.png
+      }
+    }
+  }
+}
+
